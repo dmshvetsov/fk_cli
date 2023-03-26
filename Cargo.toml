@@ -1,0 +1,16 @@
+[package]
+name = "fuzy_kill_cli"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "fk"
+path = "src/main.rs"
+
+[lib]
+name = "fuzy_kill"
+path = "src/lib.rs"
+
+[dependencies]
+console = "0.15.5"
+dialoguer = { version = "0.10.3", features = ["fuzzy-select"] }
