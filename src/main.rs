@@ -20,6 +20,12 @@ impl fmt::Display for ListItem {
     }
 }
 
+/// Use fuzzy finder to kill processes with convenience.
+/// 
+/// # Example
+///
+///     $ fk
+///
 fn main() {
     let output = process::Command::new("ps")
         .arg("wwxo")
