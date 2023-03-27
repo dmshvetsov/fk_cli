@@ -1,9 +1,17 @@
+//! Use fuzzy finder to kill processes with convenience.
+//! 
+//! # Example
+//!
+//!     $ fk
+//!
+
 use std::{ffi::OsStr, fmt, path::Path, process};
 
 use console::Term;
 use dialoguer::{theme::ColorfulTheme, FuzzySelect};
 use fk_lib::kill;
 
+#[doc(hidden)]
 struct ListItem {
     pid: u32,
     comm: String,
@@ -20,12 +28,7 @@ impl fmt::Display for ListItem {
     }
 }
 
-/// Use fuzzy finder to kill processes with convenience.
-/// 
-/// # Example
-///
-///     $ fk
-///
+#[doc(hidden)]
 fn main() {
     let output = process::Command::new("ps")
         .arg("wwxo")
