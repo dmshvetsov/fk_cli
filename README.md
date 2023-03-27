@@ -1,4 +1,4 @@
-# fuzzy killer CLI utility
+# fuzzy find and kill CLI utility
 
 Kill processes with convenience. 
 
@@ -11,6 +11,7 @@ Inspired by [fkill](https://github.com/sindresorhus/fkill-cli).
 ## Future
 
 - Display ports
+- Sort by CPU time and MEM usage
 - Make cross-platform, add Linux support
 - Make cross-platform, add Windows support
 
