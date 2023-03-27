@@ -2,7 +2,7 @@ use std::{ffi::OsStr, fmt, path::Path, process};
 
 use console::Term;
 use dialoguer::{theme::ColorfulTheme, FuzzySelect};
-use fuzy_kill::kill;
+use fk_lib::kill;
 
 struct ListItem {
     pid: u32,

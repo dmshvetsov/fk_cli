@@ -83,7 +83,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "fuzy_kill_cli"
+name = "fk_cli"
 version = "0.1.0"
 dependencies = [
  "console",

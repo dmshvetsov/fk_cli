@@ -1,5 +1,5 @@
 [package]
-name = "fuzy_kill_cli"
+name = "fk_cli"
 version = "0.1.0"
 edition = "2021"
 
@@ -8,7 +8,7 @@ name = "fk"
 path = "src/main.rs"
 
 [lib]
-name = "fuzy_kill"
+name = "fk_lib"
 path = "src/lib.rs"
 
 [dependencies]
