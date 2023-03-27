@@ -2,6 +2,8 @@
 name = "fk_cli"
 version = "0.1.1"
 authors = ["Dmitry Shvetsov"]
+description = "CLI utility for killing running processes with the fuzzy finder and convenience."
+license = "MIT"
 edition = "2021"
 
 [[bin]]
