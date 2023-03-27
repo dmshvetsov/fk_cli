@@ -1,6 +1,7 @@
 [package]
 name = "fk_cli"
 version = "0.1.1"
+authors = ["Dmitry Shvetsov"]
 edition = "2021"
 
 [[bin]]
